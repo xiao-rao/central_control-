@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, DateTime, Float, ForeignKey
 from sqlalchemy.orm import relationship
-from datetime import datetime
+
 from .database import Base
 from .utils import get_china_time
 
